@@ -1,6 +1,12 @@
+import Stopwatch from './components/Stopwatch/Stopwatch';
 
-
-export default App;
+function App() {
+  return (
+    <div>
+      <Stopwatch/>
+    </div>
+  );
+}
 
 import React, { useState, useRef } from "react";
 
@@ -74,3 +80,8 @@ const Stopwatch = () => {
   );
 };
 
+export default Stopwatch;
+
+
+
+export default App;
