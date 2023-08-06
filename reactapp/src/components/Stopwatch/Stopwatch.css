@@ -1,0 +1,29 @@
+.stopwatch-container {
+  border: 2px solid lightblue;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 10px;
+  border-top-width: 30px;
+  border-bottom-width: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+.stopwatch-text {
+  font-size: 24px;
+}
+
+.stopwatch-buttons {
+  margin-top: 50px;
+}
+
+.stopwatch-buttons button {
+  margin: 5px;
+}
+
+
